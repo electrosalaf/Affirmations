@@ -3,6 +3,9 @@ package com.example.affirmations.data
 import com.example.affirmations.R
 import com.example.affirmations.model.Affirmation
 
+/**
+ * [DataSource] generates a lists of [Affirmation]
+ */
 class DataSource {
 
     fun loadAffirmations(): List<Affirmation> {
@@ -16,7 +19,6 @@ class DataSource {
             Affirmation(R.string.affirmation_7, R.drawable.image7),
             Affirmation(R.string.affirmation_8, R.drawable.image8),
             Affirmation(R.string.affirmation_9, R.drawable.image9),
-            Affirmation(R.string.affirmation_10, R.drawable.image10)
-        )
+            Affirmation(R.string.affirmation_10, R.drawable.image10))
     }
 }
